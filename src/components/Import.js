@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
+import { Button } from "@material-ui/core/";
 
 const Import = (props) => {
-    // fill out this component
+return(
+    <Button variant="contained" color="primary">Import</Button>
+  );
+};
 
-    return (
-        <p>Import Component</p>
-    )
-}
-
-export default Import
+export default Import;
